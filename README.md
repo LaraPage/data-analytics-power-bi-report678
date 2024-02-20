@@ -24,23 +24,60 @@ All the columns in the dataset are renamed to match Power BI naming conventions,
 
 ## Milestone 3: Create the data model
 
+This milestone consists of constructing a full, functional data model. It involves the following steps:
+- Building a comprehensive dates table to act as a basis for time intelligence in the data model.
+- Building the star scheme data model, establishing relationships between key tables
+- Creating a measures table of key measures to support analysis inclusing total revenue, orders and quarter-based indicators
+- Creating date and geography hierarchies to allow drill down analysis in visuals
 
 ## Milestone 4: Set up the report
 
+This milestone creates the foundaitons of the report including the essential report pages and navigation bar. It includes setting up the following pages:
+- Executive summary
+- Customer detail
+- Product detail
+- Stores map
 
 ## Milestone 5: Build the customer detail page
 
+This milestone consists of creating a report page that focuses on customer-level analysis. The following visuals are created to display this:
+- Card visuals for total distinct customers and revenue per customer
+- A line chart of weekly distinct customers
+- A table showing the top 20 customers by total revenue, showing the revenue per customer and the toal orders for each customer
+- A donut chart showing number of cusotmers by country
+- A bar chart showing number of customers by product caategory
+- A set of three card visuals showing information about the top customer by revenue
+- A date slicer
 
 ## Milestone 6: Create an executive summary page
 
+In this milestone a report page for a high-level executive summary is created. This is to give an overview of the company's general performance to ensure that c-suite executives can quickly get insights and check outcomes against key targets. The following visuals are included:
+- Card visuals for total profit, revenue and orders
+- A graph of revenue against time
+- A donut chart showing orders and revenue by country
+- A bar chart of orders by category
+- KPIs for Quarterly revenue, profit and orders
+- A table of top 10 products
 
 ## Milestone 7: Create a product detail page
 
-
+This milestone consists of creating a product detail page that gives insight to the product team which products are performing well.
+- Card visuals to show which filters are selected
+- Guage visuals to show performance against a quarterly target
+- An area chart showing relative revenue performance over time
+- A table showing the top 10 products for the selected filter
+- A scatter graph of quantity ordered against profit per item
+  
 ## Milestone 8: Create a stores map page
 
+This milestone consits of creating a map visual that allows the regional managers to easily check the performance of the stores under their control. This includes the ability to track quarterly profit and revenue performance agaisnt set goals. Also included is the creation of stores tooltip and drilldown pages.
 
 ## Milestone 9: Cross-filtering and navigation
 
+In this milestone the cross-filtering and navigation are ajusted to suit this partiuclar report.
 
 ## Milestone 10: Create metrics for users outside the company using SQL
+
+In this milestone SQL queries are used to ensure that insights can be shared to a broader audience that may not have direct access to specialised visualisation tools. This includes the following:
+- Printing a list of table and column names and exporting them to .csv files
+- Querying the SQL database to answer key analytical questions, saving the queries and answers as .sql and .csv files
